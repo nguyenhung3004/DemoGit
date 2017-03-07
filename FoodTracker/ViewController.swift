@@ -17,12 +17,24 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var photoImageView: UIImageView!
     
     // 1
-    
+    // 11
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         nameTextField.delegate = self
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //////////
+    
     
     
     //MARK: UITextFieldDelegate
