@@ -25,7 +25,9 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     
-    
+    func selecteIag() {
+        
+    }
     
     
     
