@@ -16,6 +16,8 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var mealNamelabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
     
+    // 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
