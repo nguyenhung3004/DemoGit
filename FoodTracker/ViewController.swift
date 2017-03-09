@@ -25,9 +25,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     
-    func selecteIag() {
-        
-    }
     
     //MARK: UITextFieldDelegate
 
@@ -43,10 +40,8 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     
     //MARK: UIImagePickerControllerDelegate
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        dismiss(animated: false, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
-    
-    var name = "Hien"
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
@@ -87,15 +82,15 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
 
     
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        
-        if nameTextField.text == ""{
-            mealNamelabel.text = "Default"
-        }
-        else{
-            mealNamelabel.text = nameTextField.text
-        }
-    }
+//    @IBAction func setDefaultLabelText(_ sender: UIButton) {
+//        
+//        if nameTextField.text == ""{
+//            mealNamelabel.text = "Default"
+//        }
+//        else{
+//            mealNamelabel.text = nameTextField.text
+//        }
+//    }
 
 }
 

@@ -20,8 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9Pf-J1-qhT">
-                                <frame key="frameInset" minX="16" minY="28" width="335" height="546"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9Pf-J1-qhT">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7i-l5-RgN">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -48,12 +47,9 @@
                                             <outletCollection property="gestureRecognizers" destination="CPu-Q2-au9" appends="YES" id="Fl8-Oj-UNQ"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XvH-ar-Qck" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                        <frame key="frameInset" minY="436" width="335" height="110"/>
-                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XvH-ar-Qck" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target"/>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="XvH-ar-Qck" firstAttribute="top" secondItem="bSi-Ih-0GR" secondAttribute="bottom" constant="5" id="6W1-Qv-Y3K"/>
                                     <constraint firstAttribute="trailing" secondItem="gzg-PG-R1v" secondAttribute="trailing" id="e4n-kN-Kt4"/>
                                 </constraints>
                             </stackView>
@@ -78,7 +74,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="113" y="-256"/>
+            <point key="canvasLocation" x="79" y="-329"/>
         </scene>
     </scenes>
     <resources>
